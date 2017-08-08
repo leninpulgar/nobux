@@ -1,0 +1,1197 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+  font-size: 12px;
+  font-family: "Segoe UI"; 
+}
+
+@font-face {
+    font-family: "Nexa Light";
+    src: url(../fonts/NexaLight.otf);
+}
+@font-face {
+    font-family: "Nexa Bold";
+    src: url(../fonts/NexaBold.otf);
+}
+
+/*************
+NAVIGATION BAR
+**************/
+.blueline{
+    height: 5px;
+    background-color: rgb(0,175,237);
+    width:100%;
+    margin-top:0 !important;
+    border: 1px solid #00a4de;
+}
+
+.top-bar{
+    background-color:#000;
+    height: 10rem;
+    width:100%;
+    font-family: "Nexa Light";
+}
+.top-bar ul{
+    background-color:#000;
+}
+
+nav h1{
+    font-size:2rem;
+    color:#FFF;
+    display:inline-block;
+}
+nav a{
+    color:#FFF;
+    font-size:1rem
+}
+
+.logo{
+    display: block;
+    width:9rem;
+    height:auto;
+    background: url(images/logonobux.png) center no-repeat;
+    background-size: 90%;
+}
+.logo > a{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.search-icon {
+    display:inline-block;
+    width:1.5rem;
+    height: 1.5rem;
+    background:url(images/search.png) center no-repeat;
+    margin-top: .5rem;
+}
+
+.top-bar-left > li > h1{
+    margin-right: 11rem !important;
+}
+
+.top-bar-right > li > a{
+    margin-right: 7rem !important;
+    margin-top: .5rem
+}
+
+/*********
+NOBUX 01
+*********/
+
+.nobux01{
+    height: 33.17rem;
+    width:100%;
+    background: url(images/nobux01bg.png) center no-repeat;
+    background-size: cover;
+}
+
+.nobux01 h2{
+    margin-top:4.8rem;
+    font-weight: 300;
+    font-size:2.9rem;
+    color:#FFF;
+    font-family: 'Nexa Light';
+}
+.nobux01 h2 > strong{
+    font-family: 'Nexa Bold';
+}
+.nobux01 p{
+    font-size:1.5rem;
+    font-weight: 300;
+    color:#FFF;
+    font-family: 'Nexa Light';
+}
+.nobux01 p > strong{
+    font-family: 'Nexa Bold'
+}
+
+.over-cell{
+    display: block;
+    width: 20rem;
+    height: 39rem;
+    background: url(images/cellphone.png) center no-repeat;
+    background-size:95%;
+    position: absolute;
+    right:3rem;;
+    top:-3.23rem;
+    z-index: 100;
+}
+a.showmore{
+    display: block;
+    width:10rem;
+    height: 2.2rem;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    color:#FFF;
+    font-size:1.3rem;
+    text-align: center;
+    font-family: 'Nexa Light';
+    font-weight: 300;
+}
+
+a.buynow{
+    display: block;
+    width:10rem;
+    height: 2.3rem;
+    background-color:#FFF;
+    border-radius: 25px;
+    color:#00afec;
+    text-align: center;
+    font-size:1rem;
+    padding-top:.2rem;
+    position: relative;
+}
+a.buynow::after{
+    content:'Our products';
+    display: inline-block;
+    background-color:#00afec;
+    color:#FFF;
+    height: 2.3rem;
+    width: 9rem;
+    border-radius: 25px;
+    padding-top:.2rem;
+    position: absolute;
+    top: 0;
+    right: -7rem;
+}
+/**********
+POWER-SOUND
+**********/
+.power-sound{
+    height: 30rem;
+    width: 100%;
+    background: linear-gradient(to right, rgb(255,80,84) 50%, rgb(132,198,38) 50%);
+
+}
+.power-sound{
+    position:relative;
+}
+.power-sound h2{
+    margin-top:7.5rem;
+    color:#FFF;
+    font-weight: 300 !important;
+    z-index: 100 !important;
+}
+.power-sound p{
+    color:#FFF;
+    font-size:1.5rem;
+    font-weight: 300;
+    z-index: 100;
+}
+
+.back-cell{
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    width:34.75rem;
+    height:30rem;
+    background: url(back-cell.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+    z-index: 0;
+}
+
+.green-ephones{
+    position: absolute;
+    top:0;
+    right:0;
+    display:block;
+    height:30rem;
+    width: 26.5rem;
+    background: url(images/green-ephones.png) center no-repeat;
+    background-position: right;
+    background-size:cover;
+}
+
+/*********
+WEL-PHONES
+*********/
+.wel-phones{
+    height: 41rem;
+    width:100%;
+    background: url(images/wel-phones.png) center no-repeat;
+    background-size: cover;
+}
+
+.wel-title{
+    text-align: center;
+    padding-top:18rem;
+    color:#FFF;
+}
+/*************
+PRODUCTS PHONE
+**************/
+
+.blueh2{
+    font-family: "Nexa Light";
+    font-weight: 300;
+    font-size:2rem;
+    text-align: center;
+    color: #00afec;
+}
+
+.volt1{
+    display:block;
+    width:15rem;
+    height: 29.75rem;
+    background: url(images/volt1.png) center no-repeat;
+    margin: 0 auto;
+}
+
+.volt2{
+    display:block;
+    width: 16rem;
+    height: 29.75rem;
+    background: url(images/volt2.png) center no-repeat;
+    margin: 0 auto;
+}
+
+.volt3{
+    display:block;
+    height: 29.75rem;
+    margin: 0 auto;
+    width: 13.25rem;
+    background: url(images/volt3.png) center no-repeat;
+}
+
+.volt4{
+    display:block;
+    height: 29.75rem;
+    margin: 0 auto;
+    width: 13.25rem;
+    background: url(images/volt4.png) center no-repeat;
+}
+
+.shadow-volt{
+    display: block;
+    width:12.75rem;
+    height: 2rem;
+    background: url(images/shadow-volt.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom:1rem;
+}
+
+.phone-products{
+    padding-top:3rem;
+}
+.phone-products > .column{
+    position:relative;
+}
+
+.separator{
+    position:absolute;
+    right:0;
+    top:0;
+    display:block;
+    width:2px;
+    height: 30rem;
+    background: radial-gradient(ellipse at 130% 50%, rgba(0,0,0,0.5) 0,rgba(255,255,255,0) 70%);
+}
+
+a.minfo{
+    display: block;
+    width:7rem;
+    height: 2.1rem;
+    background-color: #00afec;
+    border-radius:25px;
+    font-size: 1rem;
+    text-align: center;
+    padding-top:.25rem;
+    vertical-align: middle;
+    color:#FFF;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+a.showmore2{
+    display: block;
+    width:10rem;
+    height: 2.3rem;
+    border:1px solid #00afec;
+    border-radius: 25px;
+    color: #00afec;
+    text-align: center;
+    padding-top:.2rem;
+    margin: 0 auto;
+    margin-bottom:2rem;
+}
+/**************
+OURS ACCESORIES
+***************/
+.accesories{
+    height: 41rem;
+    width:100%;
+    background: url(images/accesories.png) center no-repeat;
+    background-size: cover;
+}
+
+.accesories h1{
+    font-family: "Nexa Light";
+    color:#FFF;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 17rem;
+}
+
+.accesories h1 > strong{
+    font-family: 'Nexa Bold'
+}
+
+/******************
+PRODUCTS ACCESORIES
+*******************/
+.products-accesories{
+    background-color:#000;
+    height:41rem;
+    width:100%;
+    padding-top: 8rem;
+}
+.products-accesories > .column{
+    position:relative;
+}
+
+.chargers{
+    width: 16.83rem;
+    height: 19.75rem;
+    background: url(images/chargers.png) center no-repeat;
+    margin: 0 auto;
+}
+.soundpuck{
+    width: 16.9rem;
+    height: 19.75rem;
+    background: url(images/soundpuck.png) center no-repeat;
+    margin: 0 auto;
+}
+.usbled{
+    width: 27.33rem;
+    height: 19.75rem;
+    background: url(images/usbled.png) center no-repeat;
+    margin: 0 auto;
+}
+.cases{
+    width: 16.33rem;
+    height: 19.75rem;
+    background: url(images/cases.png) center no-repeat;
+    margin: 0 auto;
+}
+
+.separatorw{
+    position:absolute;
+    right:0;
+    top:0;
+    display:block;
+    width:2px;
+    height: 30rem;
+    background: radial-gradient(ellipse at 130% 50%, rgba(255,255,255,0.5) 0,rgba(255,255,255,0) 70%);
+}
+
+/*****
+FOOTER
+******/
+footer{
+    background-color: #f66c20;
+    height: 11.2rem;
+    width: 100%;
+    padding-top:2rem;
+}
+footer > p{
+    color:#FFF;
+    text-align: center;
+    font-family: 'Nexa Light';
+    font-weight:300;
+    font-size:1.2rem;
+    letter-spacing: .3rem;
+}
+footer > p > strong{
+    font-family: 'Nexa Bold' !important;
+}
+
+/********
+WHY NOBUX
+*********/
+.whynobux{
+    width:100%;
+    height:83.92rem;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(to right, 
+      rgba(0,175,237, 0.45), 
+      rgba(132,198,38, 0.45)
+    ),
+    /* bottom, image */
+    url(images/whynobux.png) center no-repeat;
+    background-size:cover;
+    padding-top:5.83rem;
+}
+
+.whynobux > h1{
+    text-align: center;
+    color:#FFF;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-size:4rem;
+}
+.whynobux > p{
+    font-size:1.8rem;
+    text-align: center;
+    color:#FFF;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    border: 3px solid #f0ff00;
+    padding:2rem;
+    margin-top: 19rem;
+}
+
+/*******
+FCC CERT
+********/
+.fcc-cert{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+.fcc{
+    display: block;
+    width: 17.5rem;
+    height: 17.5rem;
+    background: url(images/fcc.png) center no-repeat;
+    margin-top:4rem;
+    margin-bottom: 1.5rem;
+}
+.cert247{
+    display: block;
+    width: 17.5rem;
+    height: 17.5rem;
+    background: url(images/cert24.png) center no-repeat;
+    margin-top:4rem;
+    margin-bottom: 1.5rem;
+}
+.oneyw{
+    display: block;
+    width: 17.5rem;
+    height: 17.5rem;
+    background: url(images/oneyw.png) center no-repeat;
+    margin-top:4rem;
+    margin-bottom: 1.5rem;
+}
+.bestp{
+    display: block;
+    width: 17.5rem;
+    height: 17.5rem;
+    background: url(images/bestp.png) center no-repeat;
+    margin-top:4rem;
+    margin-bottom: 1.5rem;
+}
+
+/*********
+CONTACT US
+**********/
+.contactus{
+    width:100%;
+    height: 83rem;
+    background: url(images/contactusbg.png) center no-repeat;
+    background-size: cover;
+}
+.contactus > h1{
+    font-family: 'Segoe UI';
+    color: #00a4de;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 5rem;
+}
+.contactus > h2{
+    display: block;
+    background-color:#00a4de;
+    color:#FFF;
+    width: 21.33rem;
+    height: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.contactus > p{
+    font-family: 'Segoe UI';
+    font-size:1.5rem;
+    text-align: center;
+}
+
+.cell-contactus{
+    display:block;
+    width: 71.92rem;
+    height: 36.75rem;
+    background: url(images/cell-contactus.png) center no-repeat;
+    margin: 0 auto;
+    margin-top:3rem;
+}
+
+.b-line-contactus{
+    display: block;
+    width: 8.5rem;
+    height: .4rem;
+    background-color:#000;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/***********
+CONTACT FORM
+************/
+.contactus-form{
+    width:100%;
+    height: 69.67rem;
+     background: 
+    /* top, transparent red, faked with gradient */ 
+    rgba(0,175,236,.4)
+    /* bottom, image */
+    url(images/contactus-form.png) center no-repeat;
+    background-size: cover;
+}
+
+.contactus-form > .row > h2{
+    text-align: center;
+    color: #4200e9;
+    font-family: 'Segoe UI';
+    font-size:4rem;
+    font-weight: 300;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.contactus-form > .row > form > input {
+    background: transparent;
+    border: 1px solid #FFF;
+    height: 3rem;
+}
+
+.contactus-form > .row > form > textarea{
+    background: transparent;
+    border: 1px solid #FFF;
+}
+
+.contactus-form > .row > form > ::-webkit-input-placeholder {
+   color: #4200e9;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+.contactus-form > .row > form > button {
+    display: block;
+    width: 10.83rem;
+    height: 4.167rem;
+    background-color:#FFF;
+    color: #00afed;
+    font-size: 1.5rem;
+    float: right;
+}
+
+/***************
+NOBUX ACCESORIES
+****************/
+.nobux-accesories > .column{
+    position:relative;
+}
+.nobux-accesories > h1{
+    color: #00a4de;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.nobux-accesories > p{
+    color: #aaaaaa;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+}
+.nobux-accesories .wall-charger{
+    display: block;
+    width: 20.92rem;
+    height: 23.08rem;
+    background: url(images/wall-charger.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.nobux-accesories .car-charger{
+    display: block;
+    width: 22.25rem;
+    height: 23.08rem;
+    background: url(images/car-charger.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.usb-cable{
+    display: block;
+    width: 19.67rem;
+    height: 23.08rem;
+    background: url(images/usb-cable.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.usbled-cable{
+    display: block;
+    width: 27.33rem;
+    height: 23.08rem;
+    background: url(images/usb-led-cable.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.power-case{
+    display: block;
+    width: 21rem;
+    height: 25.5rem;
+    background: url(images/power-case.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.sound-puck{
+    display: block;
+    width: 27.58rem;
+    height: 25.5rem;
+    background: url(images/sound-puck.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.back-cover{
+    display: block;
+    width: 20rem;
+    height: 25.5rem;
+    background: url(images/back-cover-1.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.tempered-class{
+    display: block;
+    width: 14.5rem;
+    height: 25.5rem;
+    background: url(images/tempered-class.png) center no-repeat;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.nobux-accesories .blueh2{
+    margin-bottom: 7rem;
+}
+.sound-puck-ad{
+    width: 50%;
+    height: 79rem;
+    padding: 0;
+    background: url(images/sound-puck-ad.png) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.power-case-ad{
+    width: 50%;
+    height: 79rem;
+    padding: 0;
+    background: url(images/power-case-ad.png) center no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+/***************
+NOBUX PHONES ADS
+****************/
+.nobux-phones-ads{
+    height: 31.67rem;
+    width: 100%;
+    background-color: #d40f63;
+    color: 
+}
+
+.nobux-phones-ads h2{
+    color: #FFF;
+    font: 300 4rem 'Segoe UI';
+    text-align: center;
+    margin-top: 8.3rem;
+}
+.nobux-phones-ads a.shopnow{
+    display: block;
+    width: 9.8rem;
+    height: 2.5rem;
+    color: #FFF;
+    border: 1px solid #FFF;
+    text-align: center;
+    font: 300 1.3rem/2.4rem 'Segoe UI';
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.nobux-phones-ads-right{
+    display: block;
+    width: 605px;
+    height: 31.67rem;
+    background: url(images/nobuxadright.png) center no-repeat;
+    margin: 0 auto;
+}
+
+/***********
+NOBUX PHONES
+************/
+.nobux-phones > .column{
+    position: relative;
+}
+.nobux-phones > .row > .column{
+    position: relative;
+}
+.nobux-phones > h1{
+    font: 300 4rem 'Segoe UI';
+    color: #00a4de;
+    text-align: center;
+    margin:4rem 0 0 0;
+}
+.nobux-phones > p{
+    font: 300 1.5rem 'Segoe UI';
+    color: #aaaaaa;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.orbit-image{
+    display: block;
+    margin: 0 auto;
+}
+.volt5{
+    width: 19.33rem;
+    height: 38.08rem;
+    margin:0 auto;
+}
+.splus{
+    width:19.33rem;
+    height: 38.08rem;
+}
+.slite{
+    width:19.33rem;
+    height: 38.08rem;
+}
+.sflame{
+    width: 16.33rem;
+}
+.sblast{
+    width: 16.33rem;
+}
+.phones-ads{
+    padding: 0;
+    margin: 0;
+}
+.nike-fuel-band{
+    width: 50%;
+    height: 80rem;
+    padding: 0;
+    background: url(images/nike-fband.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+    margin-bottom: 0;
+}
+.nobux-roraima{
+    width: 50%;
+    height: 80rem;
+    padding: 0;
+    background: url(images/nobux-roraima.jpg) center no-repeat;
+    background-size: cover;
+    float: right;
+    margin-bottom: 0;
+}
+
+.accesories-forphones{
+    width: 100%;
+    height: 31.67rem;
+    background-color: rgb(132,198,38);
+}
+.accesories-forphones h2{
+    color: #FFF;
+    font: 300 4rem 'Segoe UI';
+    text-align: center;
+    margin-top: 8.3rem;
+}
+.accesories-forphones a.shopnow{
+    display: block;
+    width: 9.8rem;
+    height: 2.5rem;
+    color: #FFF;
+    border: 1px solid #FFF;
+    text-align: center;
+    font: 300 1.3rem/2.4rem 'Segoe UI';
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.nphonegreen-right{
+    display: block;
+    width: 566px;
+    height: 31.67rem;
+    background: url(images/npphonegreen-right.png) center no-repeat;
+    margin: 0 auto;
+}
+
+/***********
+PRODUCT INFO
+************/
+
+.spec-features{
+    background-color: rgb(240,240,240);
+    width: 100%;
+    height: 51.88em;
+    padding: 3rem;
+}
+.spec-features > h2{
+    font: 300 3rem 'Segoe UI';
+    color: #00afed;
+}
+.spec-features > .column{
+    padding-left: 0
+}
+.spec-features table tr{
+    background-color: rgb(240,240,240);
+    transition: border 0.5s ease;
+}
+.spec-features table tr td{
+    padding: 2rem;
+    height: 3rem;
+    padding-left: 0;
+}
+.spec-features table tr:hover{
+    border-bottom: #949494 1px solid;
+    border-top: #949494 1px solid;
+}
+.spec-features  table  tr  td{
+    font: 400 2rem 'Segoe UI';
+    color: #949494;
+}
+.spec-features  table  tr  td  strong{
+    color: #000000;
+}
+
+.product-info > .column{
+    padding: 3rem;
+}
+.product-info > .column > p{
+    font: 400 1.5rem 'Segoe UI';
+    color: #929292;
+}
+
+.smartvoltlogo{
+    display: block;
+    width: 34.17rem;
+    height: 14.67rem;
+    background: url(images/smartvoltlogo.png) left no-repeat;
+}
+
+
+/********
+GENERALES
+*********/
+.salto{
+    clear: both;
+}
+.is-dropdown-submenu-parent.is-down-arrow > a::after{
+    display: none;
+}
+.is-dropdown-submenu{
+    border: none;
+}
+
+.separatorh{
+    display:block;
+    width: 100%;
+    height: 2px;
+    background-color: #949494;
+}
+
+/*MEDIA QUERY MEDIUM SCREEN*/
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+    .row{
+        margin: 0 22rem;
+    }
+    
+/*************
+NAVIGATION BAR
+**************/
+
+.top-bar-left > li > h1{
+    margin-right: 8rem !important;
+}
+
+.top-bar-right > li > a{
+    margin-right: 5rem !important;
+    margin-top: .5rem
+}
+    
+/*NOBUX 01*/
+.nobux01{
+    height: 25.17rem !important;
+}
+.over-cell{
+    display: block;
+    width: 15rem;
+    height: 34rem;
+    background: url(images/cellphone.png) center no-repeat;
+    background-size:95%;
+    position: absolute;
+    right:3rem;;
+    top:-4.23rem;
+    z-index: 100;
+}
+/*POWER SOUND*/
+.power-sound{
+    height: 18rem;
+    width: 100%;
+    background: linear-gradient(to right, rgb(255,80,84) 50%, rgb(132,198,38) 50%);
+
+}
+.power-sound h2{
+    margin-top:2rem;
+    color:#FFF;
+    font-size:2rem;
+    font-weight: 300 !important;
+    z-index: 100 !important;
+}
+.power-sound p{
+    color:#FFF;
+    font-size:1.2rem;
+    font-weight: 300;
+    z-index: 100;
+}
+a.showmore{
+    display: block;
+    width:8rem;
+    height: 2rem;
+    font-size:1rem;
+    text-align: center;
+    font-family: 'Nexa Light';
+    font-weight: 300;
+    vertical-align: middle;
+    padding-top:.2rem
+}
+
+.back-cell{
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    width:20.75rem;
+    height:18rem;
+    background: url(back-cell.png) no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.green-ephones{
+    position: absolute;
+    top:0;
+    right:0;
+    display:block;
+    height:18rem;
+    width: 26.5rem;
+    background: url(images/green-ephones.png) center no-repeat;
+    background-position: right;
+    background-size:cover;
+}
+    
+/*********
+WEL-PHONES
+*********/
+.wel-phones{
+    height: 22rem;
+}
+
+.wel-title{
+    padding-top:7rem;
+}
+
+/**************
+OURS ACCESORIES
+***************/
+.accesories{
+    height: 22rem;
+    width:100%;
+    background: url(images/accesories.png) center no-repeat;
+    background-size: cover;
+}
+
+.accesories h1{
+    font-family: "Nexa Light";
+    color:#FFF;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 7rem;
+}
+    
+/******************
+PRODUCTS ACCESORIES
+*******************/
+
+.chargers{
+    background-size: 90%;
+}
+.soundpuck{
+    background-size:90%;
+}
+.usbled{
+    width: 22.33rem;
+    background-size:90%;
+}
+.cases{
+    background-size: 90%;
+}
+    
+/********
+WHY NOBUX
+*********/
+.whynobux{
+    height:53.92rem;
+}
+
+.whynobux > p{
+    margin-top: 8rem;
+}
+
+
+/*******
+FCC CERT
+********/
+.fcc-cert{
+    font-size: 1rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+.fcc{
+    width: 100%;
+    margin-top:1rem;
+    background: url(images/fcc.png) center no-repeat;
+    margin-bottom:-2rem;
+    background-size:80%;
+}
+.cert247{
+    width: 100%;
+    margin-top:1rem;
+    background: url(images/cert24.png) center no-repeat;
+    margin-bottom:-2rem;
+    background-size:80%;
+}
+.oneyw{
+    width: 100%;
+    margin-top:1rem;
+    background: url(images/oneyw.png) center no-repeat;
+    margin-bottom:-2rem;
+    background-size:80%;
+}
+.bestp{
+    width: 100%;
+    margin-top:1rem;
+    background: url(images/bestp.png) center no-repeat;
+    margin-bottom:-2rem;
+    background-size:80%;
+}
+
+/***************
+NOBUX ACCESORIES
+****************/
+
+.nobux-accesories .wall-charger{
+    background-size: 85%;
+}
+.nobux-accesories .car-charger{
+    background-size: 85%;
+}
+.usb-cable{
+    background-size: 85%;
+}
+.usbled-cable{
+    width: 100%;
+    background-size: 85%;
+}
+.power-case{
+    background-size: 85%;
+}
+.sound-puck{
+    width: 100%;
+    background-size: 85%;
+}
+.back-cover{
+    background-size: 85%;
+}
+.tempered-class{
+    background-size: 85%;
+}
+.sound-puck-ad{
+    height: 59rem;
+}
+.power-case-ad{
+    height: 59rem;
+}
+
+/***************
+NOBUX PHONES ADS
+****************/
+.nobux-phones-ads{
+    height: 31.67rem;
+    width: 100%;
+    background-color: #d40f63;
+    color: 
+}
+
+.nobux-phones-ads h2{
+    color: #FFF;
+    font: 300 4rem 'Segoe UI';
+    text-align: center;
+    margin-top: 8.3rem;
+}
+.nobux-phones-ads a.shopnow{
+    display: block;
+    width: 9.8rem;
+    height: 2.5rem;
+    color: #FFF;
+    border: 1px solid #FFF;
+    text-align: center;
+    font: 300 1.3rem/2.4rem 'Segoe UI';
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.nobux-phones-ads-right{
+    display: block;
+    width: 605px;
+    height: 31.67rem;
+    background: url(images/nobuxadright.png) center no-repeat;
+    margin: 0 auto;
+}
+
+/***********
+NOBUX PHONES
+************/
+
+.nike-fuel-band{
+    height: 50rem;
+}
+.nobux-roraima{
+    height: 50rem;
+}
+
+.accesories-forphones{
+    height: 26.67rem;
+}
+.accesories-forphones h2{
+    margin-top: 6.3rem;
+}
+
+.nphonegreen-right{
+    height: 26.67rem;
+}
+}
